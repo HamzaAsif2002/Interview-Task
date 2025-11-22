@@ -11,11 +11,11 @@ export const LeftArea = () => {
         <div className="flex flex-row gap-4 ">
           <img src="/img.png" alt="image" className="w-20 h-20" />
 
-          <div className="flex flex-col gap-2 ">
+          <div className="flex flex-col gap-1 ">
             <p className="text-4xl font-bold">
               LUCY <sup>TM</sup>
             </p>
-            <p className="font-medium text-sm">Innovation Starts Here</p>
+            <p className="font-sm text-sm">Innovation Starts Here</p>
           </div>
         </div>
         <p className="font-sm text-2xl">
@@ -30,7 +30,7 @@ export const LeftArea = () => {
             className="py-4 px-6 border-3 border-gray-400 rounded-xl"
             style={{ backgroundColor: "#6657B0" }}
           >
-            What to Expect
+            What to Expect?
           </button>
           <button>Other future Application</button>
         </div>

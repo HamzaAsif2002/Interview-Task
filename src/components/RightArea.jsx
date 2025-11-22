@@ -1,3 +1,5 @@
+import { EyeOff, User } from "lucide-react";
+
 export const RightArea = () => {
   return (
     <div className=" w-full md:w-[50%] flex justify-center items-center p-4 ">
@@ -9,24 +11,38 @@ export const RightArea = () => {
           Log In to Lucy<sup>TM</sup>
         </p>
 
-        <form className=" flex flex-col text-white gap-5 font-medium ">
-          <label htmlFor="mail">Your Email</label>
-          <input
-            type="email"
-            name="mail"
-            id="mail"
-            placeholder="Enter your Mail"
-            className="border border-gray-300 rounded-md px-4 py-2 "
-          />
+        <form className=" flex flex-col text-white/80 gap-5 font-medium ">
+          <div className="relative w-full">
+            <label htmlFor="mail" className="block mb-1">
+              Your Email
+            </label>
+            <div className="flex items-center justify-between border border-gray-300 rounded-md px-3 py-2">
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="Enter your Email"
+                className="w-full outline-none"
+              />
+              <User className="w-5 h-5 text-white/80 mr-2" />
+            </div>
+          </div>
 
-          <label htmlFor="password">Your Password</label>
-          <input
-            type="password"
-            name="password"
-            id="password"
-            placeholder="Enter your Password"
-            className="border border-gray-300 rounded-md px-4 py-2 "
-          />
+          <div className="relative w-full">
+            <label htmlFor="password" className="block mb-1">
+              Your Password
+            </label>
+            <div className="flex items-center justify-between border border-gray-300 rounded-md px-3 py-2">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Enter your Password"
+                className="w-full outline-none"
+              />
+              <EyeOff className="w-5 h-5 text-white/80 mr-2" />
+            </div>
+          </div>
 
           <div className="flex flex-wrap justify-between">
             <div className="flex items-center space-x-2">
