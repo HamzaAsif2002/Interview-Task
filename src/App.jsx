@@ -1,5 +1,5 @@
-import { FormArea } from "./components/formArea";
-import { TextArea } from "./components/textArea";
+import { FormArea } from "./components/formArea.jsx";
+import { TextArea } from "./components/textArea.jsx";
 
 export default function App() {
   return (

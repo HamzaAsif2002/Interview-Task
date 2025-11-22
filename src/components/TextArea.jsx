@@ -3,13 +3,13 @@ export const TextArea = () => {
     <div className="w-full md:w-[50%] flex flex-col ">
       {/* Image section */}
       <div className="w-full">
-        <img src="./logo1.png" alt="logo-img" className="h-80" />
+        <img src="./public/logo1.png" alt="logo-img" className="h-80" />
       </div>
 
       {/* Text Section */}
       <div className="h-[400px] w-[full] flex flex-col text-white justify-center items-start gap-5 p-4 m-auto ">
         <div className="flex flex-row gap-4 ">
-          <img src="./img.png" alt="image" className="w-20 h-20" />
+          <img src="./public/img.png" alt="image" className="w-20 h-20" />
 
           <div className="flex flex-col gap-2 ">
             <p className="text-4xl font-bold">
