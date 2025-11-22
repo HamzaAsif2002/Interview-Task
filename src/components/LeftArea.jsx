@@ -25,7 +25,7 @@ export const LeftArea = () => {
         </p>
         {/* button section */}
 
-        <div className="flex flex-row gap-6">
+        <div className="flex flex-row gap-8">
           <button
             className="py-4 px-6 border-3 border-gray-400 rounded-xl"
             style={{ backgroundColor: "#6657B0" }}

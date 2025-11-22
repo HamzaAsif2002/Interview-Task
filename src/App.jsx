@@ -1,5 +1,5 @@
-import { LeftArea } from "./components/RightArea.jsx";
-import { RightArea } from "./components/LeftArea.jsx";
+import { LeftArea } from "./components/LeftArea.jsx";
+import { RightArea } from "./components/RightArea.jsx";
 
 export default function App() {
   return (
