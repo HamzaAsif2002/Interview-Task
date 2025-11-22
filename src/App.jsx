@@ -1,5 +1,5 @@
-import { FormArea } from "./components/formArea.jsx";
-import { TextArea } from "./components/textArea.jsx";
+import { LeftArea } from "./components/RightArea.jsx";
+import { RightArea } from "./components/LeftArea.jsx";
 
 export default function App() {
   return (
@@ -7,8 +7,8 @@ export default function App() {
       className="w-full flex flex-col md:flex-row justify-between gap-8 "
       style={{ backgroundColor: "#3b2e7f" }}
     >
-      <TextArea />
-      <FormArea />
+      <LeftArea />
+      <RightArea />
     </div>
   );
 }

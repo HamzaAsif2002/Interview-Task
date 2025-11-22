@@ -1,4 +1,4 @@
-export const TextArea = () => {
+export const LeftArea = () => {
   return (
     <div className="w-full md:w-[50%] flex flex-col ">
       {/* Image section */}

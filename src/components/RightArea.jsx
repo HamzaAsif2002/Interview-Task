@@ -1,4 +1,4 @@
-export const FormArea = () => {
+export const RightArea = () => {
   return (
     <div className=" w-full md:w-[50%] flex justify-center items-center p-4 ">
       <div
