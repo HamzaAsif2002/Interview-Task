@@ -3,7 +3,7 @@ export const LeftArea = () => {
     <div className="w-full md:w-[50%] flex flex-col ">
       {/* Image section */}
       <div className="w-full">
-        <img src="/logo1.png" alt="logo-img" className="h-80" />
+        <img src="/logo1.png" alt="logo-img" className="h-70 lg:h-80  " />
       </div>
 
       {/* Text Section */}
