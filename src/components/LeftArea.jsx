@@ -12,22 +12,23 @@ export const LeftArea = () => {
           <img src="/img.png" alt="image" className="w-20 h-20" />
 
           <div className="flex flex-col gap-1 ">
-            <p className="text-4xl font-bold">
-              LUCY <sup>TM</sup>
+            <p className="text-4xl font-medium">
+              LUCY<sup className="text-sm align-super font-normal">TM</sup>
             </p>
             <p className="font-sm text-sm">Innovation Starts Here</p>
           </div>
         </div>
         <p className="font-sm text-2xl">
-          You Will be testing one of Lucy<sup>TM'</sup>s core applications:{" "}
-          <br />
-          Lucyideas<sup>TM</sup>
+          You will be testing one of Lucy
+          <sup className="text-sm align-super font-normal">TM'</sup>s core
+          applications: <br />
+          LUCYideas<sup className="text-sm align-super font-normal">TM</sup>
         </p>
         {/* button section */}
 
         <div className="flex flex-row gap-8">
           <button
-            className="py-4 px-6 border-3 border-gray-400 rounded-xl"
+            className="py-3 px-8 border-3 border-gray-400 rounded-xl"
             style={{ backgroundColor: "#6657B0" }}
           >
             What to Expect?

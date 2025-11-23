@@ -8,7 +8,8 @@ export const RightArea = () => {
         style={{ backgroundColor: "#6657B0" }}
       >
         <p className="text-white text-2xl font-bold mb-5">
-          Log In to Lucy<sup>TM</sup>
+          Log In to Lucy
+          <sup className="text-sm align-middle">TM</sup>
         </p>
 
         <form className=" flex flex-col text-white/80 gap-5 font-medium ">
@@ -50,8 +51,7 @@ export const RightArea = () => {
                 type="checkbox"
                 id="remember"
                 name="remember"
-                className="w-4 h-4 border-2 border-gray-400 "
-                style={{ accentColor: "#6657B0" }}
+                className="w-4 h-4 border-2 border-gray-400 appearance-none rounded-sm accent-[#6657B0]"
               />
               <label htmlFor="remember" className="font-sm text-sm">
                 Remember
