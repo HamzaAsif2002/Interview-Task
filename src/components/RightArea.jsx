@@ -21,6 +21,10 @@ export const RightArea = () => {
     e.preventDefault();
     console.log("Email:", data.mail);
     console.log("Password:", data.password);
+    setData({
+      mail: "",
+      password: "",
+    });
   };
 
   return (
@@ -29,7 +33,7 @@ export const RightArea = () => {
         className="w-full  lg:w-[60%] shadow rounded-2xl p-8 flex flex-col gap-2 border border-gray-400 "
         style={{ backgroundColor: "#6657B0" }}
       >
-        <p className="text-white text-2xl font-bold mb-5">
+        <p className="text-white text-2xl sm:text-3xl font-medium mb-5">
           Log In to Lucy
           <sup className="text-sm align-middle">TM</sup>
         </p>
@@ -90,7 +94,7 @@ export const RightArea = () => {
                 type="checkbox"
                 id="remember"
                 name="remember"
-                className="w-4 h-4 border-2 border-gray-400 appearance-none rounded-sm accent-[#6657B0]"
+                className="w-4 h-4 border-2 border-gray-400 appearance-none rounded-sm accent-[#6657B0] "
               />
               <label htmlFor="remember" className="font-sm text-sm">
                 Remember

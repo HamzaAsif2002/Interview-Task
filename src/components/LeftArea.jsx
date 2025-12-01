@@ -3,22 +3,22 @@ export const LeftArea = () => {
     <div className="w-full md:w-[50%] flex flex-col ">
       {/* Image section */}
       <div className="w-full">
-        <img src="/logo1.png" alt="logo-img" className="h-70 lg:h-80  " />
+        <img src="/logo1.png" alt="logo-img" className="h-60 lg:h-80  " />
       </div>
 
       {/* Text Section */}
-      <div className="h-[400px] w-[full] flex flex-col text-white justify-center items-start gap-5 p-4 m-auto ">
+      <div className="h-[400px] w-[full] flex flex-col text-white justify-center items-start gap-5 px-4  m-auto ">
         <div className="flex flex-row gap-4 ">
           <img src="/img.png" alt="image" className="w-20 h-20" />
 
           <div className="flex flex-col gap-1 ">
-            <p className="text-4xl font-medium">
+            <p className="text-3xl sm:text-4xl font-medium ">
               LUCY<sup className="text-sm align-super font-normal">TM</sup>
             </p>
             <p className="font-sm text-sm">Innovation Starts Here</p>
           </div>
         </div>
-        <p className="font-sm text-2xl">
+        <p className="font-sm text-xl sm:text-2xl">
           You will be testing one of Lucy
           <sup className="text-sm align-super font-normal">TM'</sup>s core
           applications: <br />
