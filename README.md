@@ -15,7 +15,7 @@ This project is created as part of my **frontend developer interview task**. It 
 
 ## 📸 Screenshot
 
-![Home Page](./public/screenshotpng)
+![Home Page](./public/screenshort.png)
 
 ## 🛠️ Tech Stack
 
