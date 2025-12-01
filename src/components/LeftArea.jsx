@@ -28,7 +28,7 @@ export const LeftArea = () => {
 
         <div className="flex flex-row gap-8">
           <button
-            className="py-3 px-8 border-3 border-gray-400 rounded-xl"
+            className="py-2 px-6 sm:py-4 sm:px-8 border-3 border-gray-400 rounded-xl"
             style={{ backgroundColor: "#6657B0" }}
           >
             What to Expect?
